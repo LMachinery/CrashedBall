@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <com.ball.views.SurfaceView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/surface_view_game"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/lyMonedas">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:id="@+id/imageView2"
+            android:src="@drawable/moneda_mini" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="10"
+            android:id="@+id/txtMonedas"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            android:textColor="#fffdfffb" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/lyPoderes">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgMiniBall"
+            android:src="@drawable/ball_mini" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgMicroBall"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ball_micro" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgJumperBall"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ball_jump" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgRepulsiveBall"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ball_repulsive" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgSolidBall"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ball_solid" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtPuntaje"
+        android:layout_alignParentTop="@+id/lyPoderes"
+        android:textSize="90dp"
+        android:layout_below="@+id/lyMonedas"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ff08ff00" />
+
+</RelativeLayout>
