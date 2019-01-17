@@ -6,6 +6,7 @@ so it is possible to use this code with any purpose, it contains
 many worlds like: Cristal, Fortest, Ceramic, Island.
 
 The code can be use as a example of any OpenGL project, or to build any game.
+
 Watch the gameplay here:
 https://www.youtube.com/watch?v=fUHMeehu6BA
 
